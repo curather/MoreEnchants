@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XW",
+    "W#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:blaze_rod"
+    },
+    "W": {
+      "item": "minecraft:paper"
+    },
+    "#": {
+      "item": "minecraft:bow"
+    }
+  },
+  "result": {
+    "item": "enchanted_book",
+    "nbt": {
+      "StoredEnchantments": [
+        {
+          "id": "minecraft:flame",
+          "lvl": 1
+        }
+      ]
+    }
+  }
+}

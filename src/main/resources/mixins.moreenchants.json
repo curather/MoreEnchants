@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "mixins.moreenchants.refmap.json",
+  "package": "com.gum.moreenchants.mixins",
+  "mixins": [
+    "BlockMixin",
+    "ItemStackMixin",
+    "LivingEntityMixin",
+    "RepairContainerMixin",
+    "ServerWorldInfoMixin"
+  ],
+
+
+  "verbose": true
+}

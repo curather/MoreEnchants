@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XY",
+    "W#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:paper"
+    },
+    "Y": {
+      "item": "minecraft:wooden_pickaxe"
+    },
+    "W": {
+      "item": "minecraft:wooden_shovel"
+    },
+    "#": {
+      "item": "minecraft:wooden_axe"
+    }
+  },
+  "result": {
+    "item": "enchanted_book",
+    "nbt": {
+      "StoredEnchantments": [
+        {
+          "id": "minecraft:mending",
+          "lvl": 1
+        }
+      ]
+    }
+  }
+}

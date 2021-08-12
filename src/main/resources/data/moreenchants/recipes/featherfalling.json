@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WW",
+    "W#"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:paper"
+    },
+    "#": {
+      "item": "minecraft:feather"
+    }
+  },
+  "result": {
+    "item": "enchanted_book",
+    "nbt": {
+      "StoredEnchantments": [
+        {
+          "id": "minecraft:feather_falling",
+          "lvl": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WW",
+    "W#"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:paper"
+    },
+    "#": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "enchanted_book",
+    "nbt": {
+      "StoredEnchantments": [
+        {
+          "id": "minecraft:respiration",
+          "lvl": 1
+        }
+      ]
+    }
+  }
+}
