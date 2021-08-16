@@ -43,12 +43,4 @@ public class ExperienceEnchant extends Enchantment {
         return stack.getItem() instanceof PickaxeItem;
     }
 
-    @Override
-    public void doPostAttack(LivingEntity user, Entity target, int level) {
-        if (target instanceof LivingEntity) {
-            ((LivingEntity) target).forceAddEffect(new EffectInstance(Effects.MOVEMENT_SLOWDOWN, 20 * 10 * level, level * 2));//level - 1));
-        }
-
-        super.doPostAttack(user, target, level);
-    }
 }
